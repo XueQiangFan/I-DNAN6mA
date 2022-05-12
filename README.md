@@ -31,8 +31,6 @@ Here, you will see one configuration files.
   For example:  
   [test_path]
   test_path = /DNAN6mAsites/dataset/A.thaliana_test.xlsx
-
-
 ~~~
 
 ## Run I-DNAN6mA 
