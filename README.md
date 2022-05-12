@@ -16,8 +16,8 @@ I-DNAN6mA: Accurate identification of DNA N6-methyladenine sites using base-pair
 
 ~~~
   $ jar xvf I-DNAN6mA-main.zip
-  $ chmod -R 777 ./I-RNAsol-main.zip
-  $ cd ./I-RNAsol-main
+  $ chmod -R 777 ./I-DNAN6mA-main.zip
+  $ cd ./I-DNAN6mA-main
   $ java -jar ./Util/FileUnion.jar ./save_model/ ./save_model.zip
   $ rm -rf ./save_model
   $ unzip save_model.zip 
@@ -25,7 +25,7 @@ I-DNAN6mA: Accurate identification of DNA N6-methyladenine sites using base-pair
 ~~~
 Here, you will see one configuration files.   
 *Configure the following tools or databases in I-DNAN6mA.config  
-  The file of "I-RNAsol.config" should be set as follows:
+  The file of "I-DNAN6mA.config" should be set as follows:
 - test_path
 ~~~
   For example:  
@@ -42,9 +42,9 @@ Here, you will see one configuration files.
     python main.py -test_path /DNAN6mAsites/dataset/A.thaliana_test.xlsx -result_path ./result
 ~~~
 
-## The RNA solvent accessibility result
+## The 6mA sites result
 
-*The protein solvent accessibility result of each rsidue should be found in the outputted file, i.e., " protein name +.rsa". In each result file, where "NO" is the position of each residue in your RNA, where "AA" is the name of each residue in your RNA, where "RSA" is the predicted relative accessible surface area of each residue in your RNA, and where "ASA" is the predicted accessible surface area of each nucleotide in your RNA.
+*The 6mA sites results of each DNA sequence should be found in the outputted file. In each result file, where "NO" is the position of each residue in your RNA, where "AA" is the name of each residue in your RNA, where "RSA" is the predicted relative accessible surface area of each residue in your RNA, and where "ASA" is the predicted accessible surface area of each nucleotide in your RNA.
 
 ## Update History:
 
