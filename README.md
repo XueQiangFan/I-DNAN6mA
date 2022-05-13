@@ -7,7 +7,7 @@ Contents
   * [System Requirments](#system-requirments)
   * [Installation](#installation)
   * [Usage](#usage)
-  * [Benchmark datasets](#benchmark datasets)
+  * [Benchmark datasets](#benchmark)
   * [Citation guide](#citation-guide)
   * [Licence](#licence)
   * [Contact](#contact)
