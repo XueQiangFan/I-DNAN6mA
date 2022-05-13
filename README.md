@@ -7,7 +7,7 @@ Contents
   * [System Requirments](#system-requirments)
   * [Installation](#installation)
   * [Usage](#usage)
-  * [Benchmark datasets](#benchmark)
+  * [Datasets](#datasets)
   * [Citation guide](#citation-guide)
   * [Licence](#licence)
   * [Contact](#contact)
@@ -60,8 +60,7 @@ Usage
     python main.py -test_path /DNAN6mAsites/dataset/A.thaliana_test.xlsx -result_path ./result.csv
 ~~~
 
-
-Benchmark datasets
+Datasets
 ----
 
 The following benchmark datasets ware used for I-DNAN6mA:
