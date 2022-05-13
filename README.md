@@ -40,14 +40,15 @@ To install I-DNAN6mA and it's dependencies following commands can be used in ter
 
 1. `git clone https://github.com/XueQiangFan/I-DNAN6mA.git`
 2. `cd I-DNAN6mA`
+
 Either follow **virtualenv** column steps or **conda** column steps to create virtual environment and to install I-DNAN6mA dependencies given in table below:<br />
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; virtualenv | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; conda |
-| :- | :-------- | :--- |
-| 9. | `virtualenv -p python3.7 venv` | `conda create -n venv python=3.7` |
-| 10. | `source ./venv/bin/activate` | `conda activate venv` | 
-| 11. | *To run I-DNAN6mA on CPU:*<br /> <br /> `pip install tensorflow==1.14.0` <br /> <br /> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; *or* <br /> <br />*To run I-DNAN6mA on GPU:*<br /> <br /> `pip install tensorflow-gpu==1.14.0` | *To run I-DNAN6mA on CPU:*<br /> <br /> `conda install tensorflow==1.14.0` <br /> <br /> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; *or* <br /> <br />*To run RNAsnap2 on GPU:*<br /> <br /> `conda install tensorflow-gpu==1.14.0` |
-| 12. | `pip install -r requirements.txt` | `while read p; do conda install --yes $p; done < requirements.txt` | 
+|  | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; conda |
+| :- | :--- |
+| 9. |  `conda create -n venv python=3.7` |
+| 10. |  `conda activate venv` | 
+| 11. |  *To run I-DNAN6mA on CPU:*<br /> <br /> `conda install pytorch torchvision torchaudio cpuonly -c pytorch` <br /> <br /> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; *or* <br /> <br />*To run RNAsnap2 on GPU:*<br /> <br /> `conda install pytorch torchvision torchaudio cudatoolkit=10.2 -c pytorch` |
+| 12. | `while read p; do conda install --yes $p; done < requirements.txt` | 
 
 Usage
 ----
