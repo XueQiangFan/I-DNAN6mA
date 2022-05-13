@@ -45,19 +45,19 @@ Either follow **virtualenv** column steps or **conda** column steps to create vi
 
 |  | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; conda |
 | :- | :--- |
-| 9. |  `conda create -n venv python=3.7` |
-| 10. |  `conda activate venv` | 
-| 11. |  *To run I-DNAN6mA on CPU:*<br /> <br /> `conda install pytorch torchvision torchaudio cpuonly -c pytorch` <br /> <br /> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; *or* <br /> <br />*To run RNAsnap2 on GPU:*<br /> <br /> `conda install pytorch torchvision torchaudio cudatoolkit=10.2 -c pytorch` |
-| 12. | `while read p; do conda install --yes $p; done < requirements.txt` | 
+| 3. |  `conda create -n venv python=3.7` |
+| 4. |  `conda activate venv` | 
+| 5. |  *To run I-DNAN6mA on CPU:*<br /> <br /> `conda install pytorch torchvision torchaudio cpuonly -c pytorch` <br /> <br /> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; *or* <br /> <br />*To run I-DNAN6mA on GPU:*<br /> <br /> `conda install pytorch torchvision torchaudio cudatoolkit=10.2 -c pytorch` |
+| 6. | `while read p; do conda install --yes $p; done < requirements.txt` | 
 
 Usage
 ----
 
 **To run the I-DNAN6mA**
-### run: python main.py -test_path -o result path
+### run: python main.py -test_path test path -result_path result path
 ~~~
     For example:
-    python main.py -test_path /DNAN6mAsites/dataset/A.thaliana_test.xlsx -result_path ./result
+    python main.py -test_path /DNAN6mAsites/dataset/A.thaliana_test.xlsx -result_path ./result.csv
 ~~~
 
 
