@@ -7,7 +7,7 @@ Contents
   * [System Requirments](#system-requirments)
   * [Installation](#installation)
   * [Usage](#usage)
-  * [Datasets](#datasets)
+  * [Benchmark datasets](#datasets)
   * [Citation guide](#citation-guide)
   * [Licence](#licence)
   * [Contact](#contact)
@@ -61,11 +61,11 @@ Usage
 ~~~
 
 
-Datasets
+Benchmark datasets
 ----
 
 The following dataset was used for Training, Validation, and Testing of RNAsnap2:
-[Dropbox](https://github.com/XueQiangFan/I-DNAN6mA/tree/main/Benchmark%20datasets)
+[Datasets](https://github.com/XueQiangFan/I-DNAN6mA/tree/main/Benchmark%20datasets)
 
 Citation guide
 ----
