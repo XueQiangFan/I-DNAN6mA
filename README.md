@@ -64,7 +64,7 @@ Usage
 Benchmark datasets
 ----
 
-The following dataset was used for Training, Validation, and Testing of RNAsnap2:
+The following benchmark datasets ware used for I-DNAN6mA:
 [Datasets](https://github.com/XueQiangFan/I-DNAN6mA/tree/main/Benchmark%20datasets)
 
 Citation guide
