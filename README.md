@@ -57,7 +57,7 @@ Usage
 ### run: python main.py -test_path test path -result_path result path
 ~~~
     For example:
-    python main.py -test_path /DNAN6mAsites/dataset/A.thaliana_test.xlsx -result_path ./result.csv
+    python main_GPU(_CPU).py -test_path /DNAN6mAsites/dataset/A.thaliana_test.xlsx -result_path ./result.csv
 ~~~
 
 Datasets
