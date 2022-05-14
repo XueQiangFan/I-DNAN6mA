@@ -79,4 +79,4 @@ Mozilla Public License 2.0
 
 Contact
 ----
-xstrongf@163.com
+guozhongyi@hfut.edu.cn
