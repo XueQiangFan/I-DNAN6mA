@@ -4,7 +4,7 @@
 @Project -> File    ：RNAcontactmap -> network_model
 @IDE    ：PyCharm
 @Author  : Xue-Qiang Fan
-@Date   ：2021/12/29 15:52
+
 =================================================='''
 import torch
 import torch.nn as nn
