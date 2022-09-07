@@ -215,12 +215,3 @@ class Model(nn.Module):
         return out
 
 
-# if __name__ == '__main__':
-#     input_channel_1 = torch.ones([2, 16, 41, 41])
-#     # input_channel_1 = torch.unsqueeze(input_channel_1, 0)
-#     input_channel_2 = torch.ones([2, 41, 4])
-#     # input_channel_2 = torch.unsqueeze(input_channel_2, 0)
-#     model = Model(16)
-#     print("Total Parameters:", sum([p.nelement() for p in model.parameters()]))
-#     o = model(input_channel_2, input_channel_1)
-#     print(o)
