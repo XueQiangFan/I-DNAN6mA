@@ -66,9 +66,9 @@ class self_attention(nn.Module):
         out4 = self.soft(out3)
         out5 = out4.permute(0, 3, 1, 2)
         y = x.permute(0, 3, 2, 1)
-        out6 = out5 @ y  # @ 矩阵相乘
+        out6 = out5 @ y 
         out7 = out6.permute(0, 3, 2, 1)
-        out = torch.sum(out7, 2) / out7.shape[2]  # ?40
+        out = torch.sum(out7, 2) / out7.shape[2] 
         return out
 
 
