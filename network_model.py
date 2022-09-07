@@ -152,7 +152,7 @@ class Model(nn.Module):
         )
         self.feat_detector_layer = VariableLengthFeatureDetector(64)
 
-        self.self_attention_layer = self_attention(192)  # 通道数
+        self.self_attention_layer = self_attention(192)
 
         self.lstm1_layer = nn.LSTM(input_size=196, hidden_size=128, num_layers=2, dropout=0.25,
                                    batch_first=True, bidirectional=True)
