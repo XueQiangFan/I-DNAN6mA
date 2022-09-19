@@ -71,7 +71,7 @@ Citation guide
 
 **If you use I-DNAN6mA for your research please cite the following papers:**
 
-[1]Xue-Qiang Fan, Bing Lin, Jun Hu*, and Zhong-Yi Guo*. I-DNAN6mA: Accurate identification of DNA N6-methyladenine sites using base-pairing map and deep learning. sumitted.
+[1] Xue-Qiang Fan, Bing Lin, Jun Hu*, and Zhong-Yi Guo*. I-DNAN6mA: Accurate identification of DNA N6-methyladenine sites using base-pairing map and deep learning. sumitted.
 
 Licence
 ----
