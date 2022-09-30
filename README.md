@@ -79,4 +79,4 @@ Mozilla Public License 2.0
 
 Contact
 ----
-hujunum@zjut.edu.cn; guozhongyi@hfut.edu.cn
+Thanks for your attention. If you have any questions, please contact my email: xstrongf@163.com
